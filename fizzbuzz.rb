@@ -1,5 +1,3 @@
-def fizzbuzz(start, end_num)
-  puts (start..end_num).map { |i| (fb = [["Fizz"][i % 3], ["Buzz"][i % 5]].compact.join).empty? ? i : fb }
-end
+def fz(α, Ω) (α..Ω).map{|i|(f=[["Fizz"][i%3],["Buzz"][i%5]].compact.join).empty?? i:f}end
 
-fizzbuzz(1,100)
+puts fz(1,100)
